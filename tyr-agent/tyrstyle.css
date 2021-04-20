@@ -1,0 +1,141 @@
+body {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .row { display: inline-block; }
+  * html .row { height: 1%; }
+  .row { display: block; }
+
+.header {
+    background:rgb(82, 204, 0);
+    height: 200px;
+}
+
+.content {
+    background: #1c7056;
+    min-height: 696px;
+    width: 24%;
+    float: left;
+    border: 2px solid black;
+}
+
+.content p {
+    border: 2px solid black;
+    background: #000000;
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.content img {
+    border: 4px solid black;
+    left: 10px;
+    bottom: 10px;
+}
+
+.sidebar1 {
+    background: #1c7056;
+    min-height: 696px;
+    width: 52%;
+    float: left;
+    border: 2px solid black;
+}
+
+.sidebar2 {
+    background: #1c7056;
+    min-height: 696px;
+    width: 23%;
+    float: left;
+    border: 2px solid black;
+}
+
+.sidebar2 h1 {
+    border: 2px solid black;
+    background: #000000;
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.sidebar2 p {
+    border: 1px solid black;
+    background: #000000;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    font-family: arial black;
+}
+
+.sidebar2 img {
+    position: relative;
+    left: 140px;
+    bottom: -9px;
+}
+
+.footer {
+    background: rgb(82, 204, 0);
+    height: 50px;
+}
+
+.footer span {
+    background: #222;
+    color: #fff;
+    border-radius: 1px;
+    position: relative;
+    left: 380px;
+    bottom: 75px;
+    font-size: 23px;
+    padding: 0px 5px;
+    font-family: comic sans ms;
+}
+
+.imgblock {
+    position: relative;
+    display: inline-block;
+}
+
+.imgblock span {
+    background: #222;
+    color: #fff;
+    border-radius: 2px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+    font-size: 27px;
+    padding: 3px 8px;
+    font-family: comic sans ms;
+}
+}
+
+.con {
+    position:relative
+}
+
+.top {
+    position:absolute;top:0;left:0;
+}
+
+table {
+    width: 300px;
+    margin: auto;
+    bottom: auto;
+}
+
+th {
+    border-collapse: collapse;
+    border: 3px solid rgb(57, 60, 255);
+    text-align: center;
+}
